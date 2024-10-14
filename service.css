@@ -1,0 +1,170 @@
+html{
+  margin:0;
+  padding:0;
+}
+body{
+  background: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+nav{
+  border-bottom:2px solid red;
+}
+nav ul{
+display:flex;
+  justify-content:flex-end;
+ align-items:center;
+  height:50px;
+}
+nav ul li{
+  list-style:none;
+  font-size:10px;
+  padding:15px;
+}
+nav ul li a{
+  text-decoration:none;
+  color:black;
+  display:flex;
+
+}
+nav ul li a:hover{
+  color:red;
+  border:2px solid red;
+}
+nav ul li:first-child{
+  margin-right:auto;
+ cursor:pointer;
+}
+nav ul li:first-child:hover{
+transform:scale(1.1);
+}
+nav ul li span{
+  font-size:26px;
+  color:red;
+  font-weight:bold;
+}
+.conatiner{
+  width:80%;
+  margin:auto;
+  height:100vh;
+}
+.conatiner h3{
+  text-align:center;
+  font-size:40px;
+}
+.basic{
+
+  width:100%;
+  height:auto;
+  color:black;
+  font-size:26px;
+  margin:100px;
+}
+.basic span{
+  color:red;
+  font-size:34px;
+}
+.standard{
+
+  width:100%;
+  height:auto;
+  color:black;
+  
+  font-size:26px;
+  margin:100px;
+}
+.standard span{
+  color:red;
+  font-size:34px;
+}
+
+.premium{
+  margin:100px;
+  width:100%;
+  height:auto;
+  color:black;
+  font-size:26px;
+}
+.premium span{
+  color:red;
+  font-size:34px;
+}
+.ending p{
+  margin-top:50px;
+  color:black;
+  font-size:16px;
+ 
+}
+
+@media (max-width: 400px) {
+  nav{
+    width:100%;
+  }
+  nav ul{
+    width:80%;
+    justify-content:center;
+  }
+  nav ul li a{
+    font-size:6px;
+  }
+  nav ul li span{
+    font-size:10px;
+  }
+  .conatiner{
+    width:100%;
+    margin-left:0;
+    height:100vh;
+    text-align:left;
+  }
+  .conatiner h3{
+  text-align:left;
+  }
+  .basic{
+    margin-left:0;
+text-align:left;
+  width:100%;
+  height:auto;
+  color:black;
+  font-size:26px;
+  margin-bottom:100px;
+}
+.basic span{
+  color:red;
+  font-size:34px;
+  text-align:left;
+}
+.standard{
+margin-left:0;
+  width:100%;
+  height:auto;
+  color:black;
+  text-align:left;
+  font-size:26px;
+  margin-bottom:100px;
+}
+.standard span{
+  color:red;
+  font-size:34px;
+  text-align:left;
+}
+
+.premium{
+  margin-left:0;
+  margin-bottom:100px;
+  width:100%;
+  height:auto;
+  color:black;
+  font-size:26px;
+  text-align:left;
+}
+.premium span{
+  color:red;
+  font-size:34px;
+  text-align:left;
+}
+.ending p{
+  margin-left:0;
+  margin-top:50px;
+  text-align:left;
+ 
+}
+}
