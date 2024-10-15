@@ -93,7 +93,7 @@ animation: cursor 0.6s infinite, typing 2s steps(10) infinite;
    content: 'SAKET';
   }
  61%,100%{
-     content: 'HIER NOW';
+     content: 'HIRE NOW';
   }
 }
 @keyframes typing{
